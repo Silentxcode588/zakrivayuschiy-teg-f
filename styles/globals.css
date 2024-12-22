@@ -2,6 +2,7 @@
 Здесь же лежит утилитарный класс visually-hidden на случай, если нужно скрыть какой-то элемент, но оставить доступным для скринридера.
 Вы можете изменять этот файл или дополнять. Но скорее всего, вам это не потребуется. */
 
+
 *,
 *::after,
 *::before {
@@ -34,7 +35,15 @@ button,
 input {
   color: currentColor;
   font-family: inherit;
+  background-color: transparent;
   font-size: inherit;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+button:focus {
+  outline: none;  /* Убирает контур фокуса */
 }
 
 ul,
