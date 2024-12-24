@@ -176,7 +176,6 @@
 }
 
 .card__icon-button {
-  
   border: none;
   border: 2px solid transparent;
 }
@@ -256,7 +255,7 @@
 }
 
 .like-icon {
-  margin: auto ;
+  margin: auto;
   display: block;
   cursor: pointer;
 }
