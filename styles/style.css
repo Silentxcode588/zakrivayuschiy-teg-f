@@ -101,7 +101,7 @@
 .card__image-block {
   position: relative;
   overflow: hidden;
-  border-bottom: 3px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 .card__title {
@@ -158,10 +158,11 @@
 
 .card__buttons-group {
   margin-block-start: 25px;
+  max-block-size: 39px;
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  gap: 6px;
+  gap: 4px;
 }
 
 .button__text {
@@ -175,8 +176,9 @@
 }
 
 .card__icon-button {
+  
   border: none;
-  outline: 2px solid transparent;
+  border: 2px solid transparent;
 }
 
 .card__icon-button:focus {
@@ -185,7 +187,7 @@
 }
 
 .card__icon-button:focus-visible {
-  outline: 2px solid #000;
+  border: 2px solid #000;
   transition: outline 0.3s ease;
 }
 
@@ -254,6 +256,7 @@
 }
 
 .like-icon {
+  margin: auto ;
   display: block;
   cursor: pointer;
 }
